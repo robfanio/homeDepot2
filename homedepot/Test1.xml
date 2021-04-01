@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name=" Boot Camp">
+	<parameters>
+		<parameter name="browser" value="firefox" />
+		<parameter name="email" value="robfanio81@gmail.com" />
+		<parameter name="password" value="SoftwareTester" />
+		<parameter name="zipcode" value="08401" />
+		<parameter name="phone" value= "6097052255" />
+
+	</parameters>
+	<test name=" Functional testing">
+		<classes>
+			<class name="homedepot.Test1" />
+		</classes>
+	</test>
+
+</suite>

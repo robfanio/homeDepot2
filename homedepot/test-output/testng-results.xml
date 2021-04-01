@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-01T11:20:06 EDT" name=" Boot Camp" finished-at="2021-04-01T11:20:16 EDT" duration-ms="10023">
+    <groups>
+    </groups>
+    <test started-at="2021-04-01T11:20:06 EDT" name=" Functional testing" finished-at="2021-04-01T11:20:16 EDT" duration-ms="10023">
+      <class name="homedepot.Test1">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:homedepot.Test1@186f8716]" started-at="2021-04-01T11:20:06 EDT" name="beforeMethod" finished-at="2021-04-01T11:20:10 EDT" duration-ms="4898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="RegTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:homedepot.Test1@186f8716]" started-at="2021-04-01T11:20:10 EDT" name="RegTest" finished-at="2021-04-01T11:20:16 EDT" duration-ms="5081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[robfanio81@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SoftwareTester]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[08401]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[6097052255]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:homedepot.Test1@186f8716]" started-at="2021-04-01T11:20:16 EDT" name="afterMethod" finished-at="2021-04-01T11:20:16 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- homedepot.Test1 -->
+    </test> <!--  Functional testing -->
+  </suite> <!--  Boot Camp -->
+</testng-results>
